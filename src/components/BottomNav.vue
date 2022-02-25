@@ -7,7 +7,7 @@
     v-model="activeItem"
     color="primary"
   >
-    <v-btn value="code">
+    <v-btn value="code" :to="{ path: '/'}">
       <span>Home</span>
       <v-icon>home</v-icon>
     </v-btn>

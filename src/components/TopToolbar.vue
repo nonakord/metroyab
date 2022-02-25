@@ -10,7 +10,7 @@
             <v-list-item-title>Settings</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item @click="doNothing">
+        <v-list-item :to="{ path: '/about'}">
           <v-list-item-action>
             <v-icon>help</v-icon>
           </v-list-item-action>
