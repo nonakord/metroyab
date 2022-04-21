@@ -49,7 +49,7 @@ export default class TopToolbar extends Vue {
   doNothing(): void {
     // do nothing.
   }
-  darkMode() {
+  darkMode(): void {
     this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
     localStorage.setItem('isDark', this.$vuetify.theme.dark + "")
   }

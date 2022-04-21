@@ -13,7 +13,7 @@ import { Component, Vue } from "vue-property-decorator";
 import TopToolbar from "./components/TopToolbar.vue";
 import BottomNav from "./components/BottomNav.vue";
 import HelloWorld from "./components/HelloWorld.vue";
-import About from "./views/About.vue";
+import About from "./views/AboutApp.vue";
 @Component({
   components: {
     TopToolbar,
